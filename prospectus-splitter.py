@@ -5,8 +5,8 @@ import json
 from multiprocessing import Pool, cpu_count
 
 # Set up base directory and input/output structure
-input_dir = 'Input_test'
-output_dir = 'Output_test'
+input_dir = 'example_input'
+output_dir = 'example_output'
 
 # Ensure the output directory exists
 os.makedirs(output_dir, exist_ok=True)
