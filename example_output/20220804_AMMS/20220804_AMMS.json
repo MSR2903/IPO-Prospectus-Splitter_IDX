@@ -1,0 +1,22 @@
+{
+    "cover_underwriter": {
+        "edited": 0,
+        "cover": 1,
+        "underwriter": 81
+    },
+    "balance_sheet": {
+        "edited": 0,
+        "page_start": 125,
+        "page_end": 126
+    },
+    "cash_flow": {
+        "edited": 0,
+        "page_start": 129,
+        "page_end": 129
+    },
+    "income_statement": {
+        "edited": 0,
+        "page_start": 127,
+        "page_end": 127
+    }
+}
