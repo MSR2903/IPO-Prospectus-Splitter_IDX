@@ -1,5 +1,7 @@
 # Prospectus Splitter for E-IPO Stock in IDX (Bursa EFek Indonesia)
 
+## Splitter Prospektus untuk Ekstraksi Prospektus Saham yang akan IPO di E-IPO
+
 `prospectus-splitter.py` bertujuan untuk memisahkan halaman tertentu dari file PDF prospektus berdasarkan kata kunci yang telah ditentukan. Skrip ini memungkinkan ekstraksi bagian-bagian penting, seperti laporan keuangan, laporan arus kas, dan laporan laba rugi, dari prospektus dengan berbagai struktur halaman.
 
 ## Fitur
