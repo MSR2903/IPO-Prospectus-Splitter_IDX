@@ -1,6 +1,5 @@
 # Prospectus Splitter for E-IPO Stock in IDX (Bursa EFek Indonesia)
-
-## Splitter Prospektus untuk Ekstraksi Prospektus Saham yang akan IPO di E-IPO
+### Splitter Prospektus untuk Ekstraksi Prospektus Saham yang akan IPO di E-IPO
 
 `prospectus-splitter.py` bertujuan untuk memisahkan halaman tertentu dari file PDF prospektus berdasarkan kata kunci yang telah ditentukan. Skrip ini memungkinkan ekstraksi bagian-bagian penting, seperti laporan keuangan, laporan arus kas, dan laporan laba rugi, dari prospektus dengan berbagai struktur halaman.
 
@@ -11,14 +10,14 @@
 - **JSON Updater**: Menghasilkan dan mengupdate file JSON untuk setiap prospektus yang diproses, untuk melakukan koreksi secara manual.
 - **Multiprocessing**: Memanfaatkan semua inti CPU yang tersedia untuk mempercepat pemrosesan beberapa file PDF sekaligus.
 
-## Struktur Direktori
+## Direktori
 
 - **Input**: File PDF yang akan diproses harus ditempatkan dalam folder `example_input`.
 - **Output**: File PDF hasil ekstraksi dan file JSON terkait akan disimpan dalam folder `example_output`.
 
-## Prasyarat
+## Requirements
 
-Pastikan untuk menginstal pustaka berikut:
+Pastikan untuk menginstal library berikut:
 - `PyMuPDF` (fitz) untuk pemrosesan teks dalam PDF.
 - `PyPDF2` untuk manipulasi halaman PDF.
   
